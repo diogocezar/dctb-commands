@@ -1,0 +1,7 @@
+[push]
+        default = simple
+[user]
+        name = Diogo Cezar
+        email = diogo@diogocezar.com
+[alias]
+        cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
