@@ -228,3 +228,7 @@ https://medium.com/@ivanaugustobd/seu-terminal-pode-ser-muito-muito-mais-produti
 ## Coisas Legais
 
 https://medium.com/@Jarvski/customizing-the-os-x-terminal-11fda5c3dd5c
+
+## New Line POWERLEVEL(k
+
+https://github.com/bhilburn/powerlevel9k/wiki/Stylizing-Your-Prompt
