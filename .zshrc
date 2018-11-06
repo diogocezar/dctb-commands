@@ -10,6 +10,7 @@ export ZSH=/Users/diogo/.oh-my-zsh
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="nerdfont-complete"
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
