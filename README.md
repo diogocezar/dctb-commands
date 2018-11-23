@@ -6,45 +6,38 @@ $ visudo
 ```
 
 Alterar para: 
-
 ```
 admin ALL=(ALL:ALL) ALL
 ```
 
 Instalando Lamp:
-
 ```
 $ sudo apt-get install tasksel
 $ sudo tasksel
 ```
 
 Instalando PhpMyAdmin:
-
 ```
 $ sudo apt-get install phpmyadmin
 ```
 
 Reiniciando o servidor:
-
 ```
 $ sudo service apache2 restart
 ```
 
 Instalando Proftpd:
-
 ```
 $ sudo apt-get install proftpd
 $ sudo nano /etc/proftpd/proftpd.conf
 ```
 
 Alterar para:
-
 ```
 DefaultRoot /var/www/
 ```
 
 Adicionando permissão para usuário:
-
 ```
 $ sudo adduser admin www-data
 $ sudo chown -R www-data:www-data /var/www
@@ -53,38 +46,32 @@ $ sudo service proftpd restart
 ```
 
 Habilitando ModRewrite:
-
 ```
 $ sudo a2enmod rewrite
 ```
 
 Instalando Curl:
-
 ```
 $ sudo apt-get install php5-curl
 ```
 
 Alterando Time Zone:
-
 ```
 $ sudo dpkg-reconfigure tzdata
 ```
 
 Reiniciando o Cron:
-
 ```
 $ /etc/init.d/cron stop
 $ /etc/init.d/cron start
 ```
 
 Configurando o Apache:
-
 ```
 $ sudo nano /etc/apache2/sites-enabled/000-default.conf
 ```
 
 Criar mapeamento de host:
-
 ```
 <VirtualHost *:80>
   ServerName www.exemplo.com
