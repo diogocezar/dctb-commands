@@ -191,6 +191,12 @@ Git considerando o case:
 git config core.ignorecase false
 ```
 
+## Certbot
+
+```bash
+sudo certbot certonly --webroot --webroot-path=/var/www/creative-troops -d www.creativetroops.com.br
+```
+
 # ZSH
 
 ```bash
